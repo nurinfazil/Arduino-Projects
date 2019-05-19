@@ -16,6 +16,10 @@ void loop() {
     digitalWrite(5, LOW); 
     digitalWrite(4, LOW); 
     digitalWrite(3, HIGH); 
+    delay(200); 
+    digitalWrite(3, LOW); 
+    delay(200); 
+    digitalWrite(3, HIGH); 
     }
 
    else {
@@ -24,10 +28,10 @@ void loop() {
     digitalWrite(3, LOW); 
     
 
-    delay(250); 
+    delay(200); 
 
     digitalWrite (4, HIGH); 
     digitalWrite (5, LOW);
-    delay (250);
+    delay (200);
   }
 }
